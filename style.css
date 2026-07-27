@@ -16,6 +16,14 @@
     background-color:orange;
 }
 
-#table {
+table, td, th {
     border: 2px solid black;
+}
+
+.future {
+    background-color: rgb(6, 50, 112);
+
+}
+.intrests {
+     background-color: darkgreen;
 }
