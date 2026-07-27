@@ -15,3 +15,7 @@
 .home {
     background-color:orange;
 }
+
+#table {
+    border: 2px solid black;
+}
