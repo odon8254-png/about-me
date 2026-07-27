@@ -10,6 +10,7 @@
     background-color: black;
     color:mintcream;
     text-align:center;
+    font-size:large;
 }
 
 .home {
@@ -34,11 +35,37 @@ table, td, th {
     
 }
 .navbar a{
-    font-size:25px;
+    font-size:20px;
     text-align: center;
     font-weight:bold;
+    padding:15px;
+    display:block;
 }
 
 .navbar a:hover{
     background-color:rgb(175, 175, 175)
+}
+
+.i1 {
+    background-color:chartreuse;
+}
+
+.i2 {
+    background-color: blueviolet;
+}
+
+.i3 {
+    background-color:coral
+}
+
+.i4 {
+    background-color: cyan;
+}
+
+.i5 {
+    background-color: yellow;
+}
+
+.i6 {
+    background-color: navy;
 }
