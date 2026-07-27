@@ -27,3 +27,10 @@ table, td, th {
 .intrests {
      background-color: darkgreen;
 }
+
+.navbar ul {
+    background-color: black;
+    overflow:hidden;
+    
+}
+.navbar
