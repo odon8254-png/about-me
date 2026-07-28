@@ -56,12 +56,12 @@ table, td, th {
 }
 
 .i3 {
-    background-color:coral
+    background-color:coral;
 }
 
 .i4 {
     background-color: cyan;
-    color:midnightblue
+    color:midnightblue;
 }
 
 .i5 {
@@ -71,4 +71,9 @@ table, td, th {
 
 .i6 {
     background-color: navy;
+}
+
+.7on7 {
+    height:250 px ;
+    width: 250 px ;
 }
