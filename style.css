@@ -150,3 +150,92 @@ height: calc(100% + 2px);
 background-0image: linear-gradient(black, transparent, black);
 
 }
+
+.container .box:nth-child(even)
+{
+  transform: translateY(30px);
+}
+
+.container .box:nth-child(odd)
+{
+  transform: translateY(-30px);
+}
+
+.container .box::after
+{
+  content: attr(data-text);
+  position: absolute;
+  bottom: -100px;
+  background: #ffffff;
+  color: #000000;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 5px 10px;
+  white-space: nowrap;
+  letter-spacing: 0.5em;
+  transition: 0.5s;
+  text-transform: uppercase;
+  opacity: 0;
+  transition-delay: 0s;
+  -webkit-box-reflect: below 5px linear-gradient(transparent, #000300);
+}
+
+.container .box:hover::after
+{
+  opacity: 1;
+  bottom: -60px;
+  transition-delay: 0.25s;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+  background-color: #000000;
+}
+
+.containerfoot > span {
+  animation: glow 3s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0%,
+  100% {
+    color: #ffffff;
+    text-shadow: 0 0 12px #1877f2, 0 0 50px #1da1f2, 0 0 100px #00f2ea;
+  }
+  10%,
+  90% {
+    color: #e3e3e3;
+    text-shadow: none;
+  }
+}
+
+.containerfoot > span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.containerfoot > span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.containerfoot > span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.containerfoot > span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.containerfoot > span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.containerfoot > span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.containerfoot > span:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.containerfoot > span:nth-child(9) {
+  animation-delay: 0.8s;
+}
