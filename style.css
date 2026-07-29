@@ -73,10 +73,7 @@ table, td, th {
     background-color: navy;
 }
 
-.on7 {
-    height:50 px ;
-    width: 50 px ;
-}
+
 
 .wrapper
 {
@@ -84,8 +81,8 @@ table, td, th {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 grid-gap:20px;
-width:auto;
-height:auto;
+width:800px;
+height:500px;
 background: black;
 transition: 0.25s;
 }
@@ -141,4 +138,15 @@ background-image: linear-gradient(    );
 {
  grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 0.5fr;
 background-image: linear-gradient(    );
+}
+
+.wrapper .box::before
+{
+ content:'';
+ position:absolute
+ top: -1px;
+ width: 100px;
+height: calc(100% + 2px);
+background-0image: linear-gradient(black, transparent, black);
+
 }
