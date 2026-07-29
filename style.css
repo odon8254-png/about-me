@@ -77,3 +77,68 @@ table, td, th {
     height:50 px ;
     width: 50 px ;
 }
+
+.container
+{
+ position:relative;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-gap:20px;
+width:auto;
+height:auto;
+background: black;
+transition: 0.25s;
+}
+
+.container .box
+{
+position:relative;
+background:var(--img);
+background-position:center;
+background-size: cover;
+transition:0.25s;
+display:flex;
+justify-content: center;
+align-items: center;
+filter:grayscale(0) brightness(1.25);
+}
+
+.container:hover .box
+{
+    filter: grayscale(0) brightness{1.25};
+}
+
+.container .box:hover
+{
+    filter: grayscale(0) brightness(1.25);
+}
+
+.container:has(.one:hover)
+{
+ grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 0.5fr;
+background-image: linear-gradient(    );
+}
+
+.container:has(.two:hover)
+{
+ grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 0.5fr;
+background-image: linear-gradient(    );
+}
+
+.container:has(.three:hover)
+{
+ grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 0.5fr;
+background-image: linear-gradient(    );
+}
+
+.container:has(.four:hover)
+{
+ grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 0.5fr;
+background-image: linear-gradient(    );
+}
+
+.container:has(.five:hover)
+{
+ grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 0.5fr;
+background-image: linear-gradient(    );
+}
