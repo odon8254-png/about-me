@@ -113,19 +113,19 @@ filter:grayscale(0) brightness(1.25);
 .wrapper:has(.one:hover)
 {
  grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 0.5fr;
-background-image: linear-gradient(  red, white,red, white  );
+background-image: linear-gradient(red, white,red, white);
 }
 
 .wrapper:has(.two:hover)
 {
  grid-template-columns: 0.5fr 2fr 0.5fr 0.5fr 0.5fr;
-background-image: linear-gradient(    );
+background-image: linear-gradient(purple, white, yellow, white);
 }
 
 .wrapper:has(.three:hover)
 {
  grid-template-columns: 0.5 0.5fr 2fr 0.5fr 0.5fr;
-background-image: linear-gradient(    );
+background-image: linear-gradient();
 }
 
 .wrapper:has(.four:hover)
