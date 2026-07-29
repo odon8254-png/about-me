@@ -78,7 +78,7 @@ table, td, th {
     width: 50 px ;
 }
 
-.container
+.wrapper
 {
  position:relative;
 display: grid;
@@ -90,7 +90,7 @@ background: black;
 transition: 0.25s;
 }
 
-.container .box
+.wrapper .box
 {
 position:relative;
 background:var(--img);
@@ -103,41 +103,41 @@ align-items: center;
 filter:grayscale(0) brightness(1.25);
 }
 
-.container:hover .box
+.wrapper:hover .box
 {
     filter: grayscale(0) brightness{1.25};
 }
 
-.container .box:hover
+.wrapper .box:hover
 {
     filter: grayscale(0) brightness(1.25);
 }
 
-.container:has(.one:hover)
+.wrapper:has(.one:hover)
 {
  grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 0.5fr;
 background-image: linear-gradient(    );
 }
 
-.container:has(.two:hover)
+.wrapper:has(.two:hover)
 {
  grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 0.5fr;
 background-image: linear-gradient(    );
 }
 
-.container:has(.three:hover)
+.wrapper:has(.three:hover)
 {
  grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 0.5fr;
 background-image: linear-gradient(    );
 }
 
-.container:has(.four:hover)
+.wrapper:has(.four:hover)
 {
  grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 0.5fr;
 background-image: linear-gradient(    );
 }
 
-.container:has(.five:hover)
+.wrapper:has(.five:hover)
 {
  grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 0.5fr;
 background-image: linear-gradient(    );
