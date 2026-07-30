@@ -125,19 +125,19 @@ background-image: linear-gradient(purple, white, yellow, white);
 .wrapper:has(.three:hover)
 {
  grid-template-columns: 0.5 0.5fr 2fr 0.5fr 0.5fr;
-background-image: linear-gradient();
+background-image: linear-gradient(beige, white, black, white);
 }
 
 .wrapper:has(.four:hover)
 {
  grid-template-columns: 0.5fr 0.5fr 0.5fr 2fr 0.5fr;
-background-image: linear-gradient(    );
+background-image: linear-gradient(red, white,black, white);
 }
 
 .wrapper:has(.five:hover)
 {
  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 2fr;
-background-image: linear-gradient(    );
+background-image: linear-gradient(red, black, white, black    );
 }
 
 .wrapper .box::before
